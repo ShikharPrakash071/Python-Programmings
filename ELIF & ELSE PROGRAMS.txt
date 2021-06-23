@@ -1,0 +1,66 @@
+Python programming based on IF ELIF and Else statements:
+"""
+Q1> print("Program to find the bigger number\n");
+a=int(input("Enter a number: "));
+b=int(input("Enter another number: "));
+if(a>b):
+    print(a,"is greater");
+else:
+    print(b,"is greater");
+
+
+Q2> print("Program to find which is greater among all three numbers\n");
+x=int(input("Enter 1st digit of your choice "));
+y=int(input("Enter 2nd digit of your choice "));
+z=int(input("Enter 3rd digit of your choice "));
+
+if(x>y and x>z):
+    print(x,"is the greatest among all");
+elif(y>x and y>z):
+    print(y,"is the greatest among all");
+else:
+    print(z,"is the greatest among all");
+
+
+Q3> print("Program to find negative,positive and null number\n");
+
+j=int(input("Enter a number "));
+if(j>0):
+    print(j,"is a positive number");
+elif(j<0):
+    print(j,"is a negative number");
+else:
+    print(j,"is a null number");
+
+
+Q4> print("arrange in ascendind order\n");
+x=int(input("Enter 1st number "));
+y=int(input("Enter 2nd number "));
+z=int(input("Enter 3rd number "));
+
+if(x>y and x<z) or (x<y and x>z):
+    print(x,"is the middle number");
+elif(y>x and y<z) or (y<x and y>z):
+    print(y,"is the middle number");
+else:
+    print(z,"is the middle number");
+"""
+
+Q5> print("Find total marks,percentage and Grade as per their percentage\n");
+a=int(input("Enter the marks you got in Maths "));
+b=int(input("Enter the marks you got in Physics "));
+c=int(input("Enter the marks you got in DSA "));
+d=int(input("Enter the marks you got in DAA "));
+e=int(input("Enter the marks you got in Python "));
+f=a+b+c+d+e
+print("You got",f,"marks in total out of 500");
+g=f/500*100
+if(g>=80):
+    print("You got A grade");
+elif(g>=60):
+    print("You got B grade");
+elif(g>=40):
+    print("You got C grade");
+else:
+    print("You got D grade which means you have failed this semester");
+
